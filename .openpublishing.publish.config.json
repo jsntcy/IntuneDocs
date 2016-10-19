@@ -4,6 +4,21 @@
   "need_generate_intellisense": false,
   "docsets_to_publish": [
     {
+      "docset_name": "EndUser-cy",
+      "build_source_folder": "InTuneDocs/EndUser",
+      "build_output_subfolder": "InTuneDocs/EndUser",
+      "locale": "en-us",
+      "version": 0,
+      "open_to_public_contributors": true,
+      "type_mapping": {
+        "Conceptual": "Content",
+        "ManagedReference": "Content",
+        "RestApi": "Content"
+      },
+      "build_entry_point": "docs",
+      "template_folder": "_themes"
+    },
+    {
       "docset_name": "InTuneDocs-cy",
       "build_source_folder": "InTuneDocs",
       "build_output_subfolder": "InTuneDocs",
@@ -19,9 +34,9 @@
       "template_folder": "_themes"
     },
     {
-      "docset_name": "IntUnderstand-cy",
-      "build_source_folder": "InTuneDocs/Understand",
-      "build_output_subfolder": "InTuneDocs/Understand",
+      "docset_name": "IntDeployUse-cy",
+      "build_source_folder": "InTuneDocs/DeployUse",
+      "build_output_subfolder": "InTuneDocs/DeployUse",
       "locale": "en-us",
       "version": 0,
       "open_to_public_contributors": true,
@@ -64,21 +79,6 @@
       "template_folder": "_themes"
     },
     {
-      "docset_name": "IntDeployUse-cy",
-      "build_source_folder": "InTuneDocs/DeployUse",
-      "build_output_subfolder": "InTuneDocs/DeployUse",
-      "locale": "en-us",
-      "version": 0,
-      "open_to_public_contributors": true,
-      "type_mapping": {
-        "Conceptual": "Content",
-        "ManagedReference": "Content",
-        "RestApi": "Content"
-      },
-      "build_entry_point": "docs",
-      "template_folder": "_themes"
-    },
-    {
       "docset_name": "IntTroubleshoot-cy",
       "build_source_folder": "InTuneDocs/Troubleshoot",
       "build_output_subfolder": "InTuneDocs/Troubleshoot",
@@ -94,9 +94,9 @@
       "template_folder": "_themes"
     },
     {
-      "docset_name": "EndUser-cy",
-      "build_source_folder": "InTuneDocs/EndUser",
-      "build_output_subfolder": "InTuneDocs/EndUser",
+      "docset_name": "IntUnderstand-cy",
+      "build_source_folder": "InTuneDocs/Understand",
+      "build_output_subfolder": "InTuneDocs/Understand",
       "locale": "en-us",
       "version": 0,
       "open_to_public_contributors": true,
